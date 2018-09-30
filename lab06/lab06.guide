@@ -1,0 +1,8 @@
+sleep 1000
+[Ctrl+Z]
+bg
+htop -u mike
+pstree -u mike
+top -u mike
+kill $pid
+ps -eo pid,user,cmd,start_time

@@ -1,0 +1,7 @@
+ifconfig
+ip route | grep default
+dig +short google.com.ua
+host 8.8.8.8
+ping -c 1 127.0.0.1
+traceroute -m 3 google.com
+netstat -a | grep udp | wc -l
