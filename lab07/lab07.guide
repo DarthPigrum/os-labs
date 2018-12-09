@@ -1,0 +1,16 @@
+[Ctrl+Alt+F3]
+sudo su
+./lab07.sh
+passwd francesco
+passwd alessandro
+passwd lorenzo
+[Ctrl+Alt+F1]
+login francesco
+touch /home/italy/test.txt
+chgrp italy /home/italy/test.txt
+chmod 700 /home/italy/test.txt
+[Ctrl+Alt+F2]
+login alessandro
+cat /home/italy/test.txt
+[Ctrl+Alt+F1]
+chmod 720 /home/italy/test.txt
